@@ -22,7 +22,7 @@ function getRandomDate() {
 }
 export async function GET() {
     try {
-        await db.bus.deleteMany()
+    //     await db.bus.deleteMany()
     //     const names = [
     //         "Evergreen Travels",
     //         "Golden Arrow",
